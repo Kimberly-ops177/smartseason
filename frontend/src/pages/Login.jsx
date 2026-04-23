@@ -54,11 +54,6 @@ export default function Login() {
             {loading ? 'Signing in...' : 'Sign In'}
           </button>
         </form>
-        <div style={styles.demo}>
-          <p style={styles.demoTitle}>Demo Credentials</p>
-          <p style={styles.demoText}>Admin: admin@smartseason.com / admin123</p>
-          <p style={styles.demoText}>Agent: agent@smartseason.com / agent123</p>
-        </div>
       </div>
     </div>
   );
@@ -77,7 +72,4 @@ const styles = {
   input: { padding: '0.75rem 1rem', border: '1.5px solid #ddd', borderRadius: '8px', fontSize: '1rem', outline: 'none', transition: 'border-color 0.2s' },
   btn: { background: '#2d5a3d', color: '#fff', border: 'none', borderRadius: '8px', padding: '0.85rem', fontSize: '1rem', fontWeight: 600, cursor: 'pointer', marginTop: '0.5rem' },
   error: { background: '#ffebee', color: '#c62828', padding: '0.75rem', borderRadius: '8px', fontSize: '0.9rem' },
-  demo: { marginTop: '1.5rem', padding: '1rem', background: '#f9fbe7', borderRadius: '8px', borderLeft: '3px solid #8bc34a' },
-  demoTitle: { fontSize: '0.8rem', fontWeight: 700, color: '#558b2f', marginBottom: '0.4rem' },
-  demoText: { fontSize: '0.8rem', color: '#555', lineHeight: 1.6 },
 };
