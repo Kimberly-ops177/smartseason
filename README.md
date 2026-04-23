@@ -17,8 +17,9 @@ Built for the **Shamba Records Software Engineer Intern** technical assessment.
 
 ## Live Demo
 
-- **Frontend:** `https://smartseason.vercel.app` *(replace with actual URL)*
-- **Backend API:** `https://smartseason-api.onrender.com` *(replace with actual URL)*
+- Frontend: https://smartseason-self.vercel.app
+- Backend: https://smartseason-5jf8.onrender.com
+- GitHub: https://github.com/Kimberly-ops177/smartseason
 
 ---
 
